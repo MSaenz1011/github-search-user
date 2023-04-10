@@ -62,7 +62,8 @@ function App() {
             </div>
             <div class='user_join-container'>
               <h3 class='text-white'>
-                Joined {userData.created_at.substring(0, 10)}
+                {/*.substring(0, 10) use this if needed*/}
+                Joined {userData.created_at}
               </h3>
             </div>
           </div>
